@@ -10,13 +10,18 @@
 
 h1, h2, h3, h4, h5, h6 { 
 
-    font: normal normal normal 12px/30px Arial, Verdana, Helvetica, sans-serif
+    font: normal normal normal 1.6rem/30px Arial, Verdana, Helvetica, sans-serif
     } 
 
 body{
 
     zoom: 1;
     font-family: 'monteserrat';
+}
+
+html{
+
+    font-size: 62.5%;;
 }
 
 main{
@@ -101,18 +106,18 @@ aside#a-40-description{
 h1{
 
     color: white;
-    font: normal normal normal 42px/54px 'Futura-Bold', Arial, Verdana, Helvetica, sans-serif;
+    font: normal normal normal 4.2rem/54px 'Futura-Bold', Arial, Verdana, Helvetica, sans-serif;
 }
 
 h2{
 
     color: white;
-    font: normal normal normal 32px/30px 'Futura BdCn BT', Arial, Verdana, Helvetica, sans-serif
+    font: normal normal normal 3.2rem/3.0rem 'Futura BdCn BT', Arial, Verdana, Helvetica, sans-serif
 }
 
 h3{
 
-    font-size: 45px;
+    font-size: 4.5rem;
     letter-spacing: 1.2px;
     font-family: 'Futura BdCn BT';
 }
@@ -120,26 +125,26 @@ h3{
 h4{
 
     color: black;
-    font: normal normal normal 28px/30px 'Futura Bk BT', Arial, Verdana, Helvetica, sans-serif
+    font: normal normal normal 2.8rem/3.0rem 'Futura Bk BT', Arial, Verdana, Helvetica, sans-serif
 }
 
 h5{
 
     color: white;
-    font: normal normal normal 28px/30px 'Futura Bold', Arial, Verdana, Helvetica, sans-serif
+    font: normal normal normal 2.8rem/3.0rem 'Futura Bold', Arial, Verdana, Helvetica, sans-serif
 
 }
 
 h6{
 
     color: black;
-    font: normal normal normal 16px/30px 'Futura Bk BT', Arial, Verdana, Helvetica, sans-serif
+    font: normal normal normal 1.6rem/3.0rem 'Futura Bk BT', Arial, Verdana, Helvetica, sans-serif
 }
 
 p{
 
     color: white;
-    font: normal normal normal 22px/30px 'monteserrat', Arial, Verdana, Helvetica, sans-serif
+    font: normal normal normal 2.2rem/3.0rem 'monteserrat', Arial, Verdana, Helvetica, sans-serif
 }
 
 /*-------------------------------------Section 01--------------------------------------------*/ 
@@ -189,8 +194,8 @@ div#register-company > h2{
     transform: translate(0, 8%);
 
     text-align: right;
-    font-size: 34px;
-    line-height: 35px;
+    font-size: 3.4rem;
+    line-height: 3.5rem;
 
 }
 
@@ -201,7 +206,7 @@ div#register-company > h1{
     background-color: black;
 
     font-family: 'Parisienne';
-    font-size: 48px;
+    font-size: 4.8rem;
     text-align: left;
     color: white;
 
@@ -216,7 +221,7 @@ div#register > h3{
     padding: 5px;
 
     text-align: center;
-    line-height: 40px;
+    line-height: 4.0rem;
 }
 
 div#register > h4{
@@ -226,7 +231,7 @@ div#register > h4{
     margin: auto auto auto auto;
 
     text-align: center;
-    line-height: 40px;
+    line-height: 4.0rem;
 }
 
 .register-text{
@@ -236,8 +241,8 @@ div#register > h4{
     margin: 2px auto 2px auto;
 
     text-align: left;
-    line-height: 40px;
-    font-size: 22px;
+    line-height: 4.0rem;
+    font-size: 2.2rem;
 
     border-radius: 5px;
 }
@@ -249,8 +254,8 @@ div#register > h4{
     margin: 2px auto 2px auto;
     
     text-align: left;
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 4.0rem;
+    font-size: 2.0rem;
     text-align: center;
 
     border-radius: 5px;
@@ -353,7 +358,7 @@ span{
     
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 2.2rem;
 
     width: 13%;
 }
@@ -402,7 +407,7 @@ div#d-logo{
     width: 76%;
 
     text-align: justify;
-    line-height: 35px
+    line-height: 3.5rem
 }
 
 div#d-suit-man{
