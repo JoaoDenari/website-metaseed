@@ -1,0 +1,205 @@
+@media screen and (max-width: 1400px){
+
+    aside.a-50{
+
+        width: 100%;
+    }
+
+    div#register{
+
+        margin: 12.5% auto 12.5% auto;
+    }
+
+    .s-main .a-40{
+
+        display: none;
+    }
+
+    .s-default .a-40{
+
+        display: none;
+    }
+
+    .s-default .a-60 {
+
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 50px 40px 0px 40px;
+
+    }
+
+    .s-default .a-60 h5{
+
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .s-default .a-60 div{
+
+        margin: 80px auto 0 auto;
+
+    }
+
+    .s-default .a-hor .a-ver p{
+
+        padding: 30px 20px 0px 20px;
+        font-size: 18px;
+    
+    }
+
+    .s-default .a-hor .a-ver .line{
+
+        display: none;
+    }
+
+    div#d-suit-man{
+
+        display: none;
+    }
+
+    .s-default .a-30{
+
+        display: none;
+    }
+
+    .s-default #a-40-description{
+
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .s-default #a-40-description h1{
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    .s-default #a-40-description p{
+
+        padding: 0px 0px 0px 0px;
+        margin: 50px auto 0px auto;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 760px){
+
+    div#register{
+
+        margin: 12.5% 5% 12.5% 5%;
+
+        padding: 10px;
+    }
+
+    div#register-company > h2{
+
+        font-size: 24px;
+    }
+
+    div#register-company > h1{
+
+        font-size: 40px;
+        padding: 15px 0px 0px 5%;
+
+    }
+
+    div#register > h3{
+
+        font-size: 36px;
+        margin-top: 0px;
+        padding: 2px;
+    }
+
+    div#register > h4{
+
+        font-size: 20px;
+        height: 27%;
+        margin-top: 12px;
+    }
+
+    .register-text{
+
+        font-size: 16px;
+        height: 8%;
+        margin: 4px auto 4px auto;
+    }
+
+    .register-button{
+
+        font-size: 10px;
+        height: 9%;
+        margin: 4px auto 4px auto;
+    }
+
+    .s-default .a-60 div{
+
+        max-width: none;
+        min-width: 0px;
+        width: 80%;
+        min-height: 71.5px;
+    }
+
+    .s-default .a-60 p{
+
+        font-size: 12px;
+        display: block;
+    }
+
+    .s-default .a-hor .a-ver-itens{
+
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .s-default .a-hor .a-ver-title h1{
+        
+        width: 90%;
+        margin: 10px 5% 0px 5%;
+        text-align: center;
+    }
+
+    .s-default .a-hor .a-ver-itens p{
+
+        height: 0.3%;
+        font-size: 16px;
+        text-align: center;
+        width: 90%;
+        margin: 40px 5% 0px 5%;
+    }
+
+    .s-default .a-hor .a-ver-button input{
+
+        margin-top: -110px;
+        max-width: none;
+        min-height: 71.5px;
+        width: 90%;
+        margin: -70px 5% 0px 5%;
+    }
+
+    .s-default .a-hor .a-ver-lines{
+
+        display: none;
+    }
+
+    .s-default #a-40-description h1{
+
+        font-size: 36px;
+
+    }
+
+    .s-default #a-40-description p{
+
+        width: 90%; 
+        
+    }
+    
+    .s-default #a-40-description h1{
+
+        margin: 140px auto 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+}
