@@ -70,7 +70,40 @@ section.s-03{
 
 /*-------------------------------------Section 04--------------------------------------------*/ 
 
+.d-30{
+
+    display: none;
 }
+
+section.s-04{
+
+    display: block;
+    flex-direction: row;   
+    height: 750px;
+}
+
+.s-04 .d-40{
+
+    width: 100%;
+    text-align: center;
+}
+
+
+.s-04 .d-40 h1{
+
+    padding-left: 0px;
+}
+
+.s-04 .d-40 p{
+
+    text-align: center;
+}
+
+div.logo{
+
+    display: block;
+}
+
 
 @media screen and (max-width: 800px) {
 
