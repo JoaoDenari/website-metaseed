@@ -156,8 +156,6 @@ div#register{
 
     width: 575px;
     height: 712.5px;
-    
-    /* transform: translate(0, 17.5%); */
 
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
@@ -174,7 +172,6 @@ div#register-company{
 
     background-color: red;
     max-width: 402.5px;
-    min-width: 280px;
     height: 60%;
     margin: auto;
     transform: translate(0, 40%);
@@ -432,4 +429,9 @@ div.logo{
     text-align: center;
     display: none;
     margin-top: 50px;
+}
+
+#logo-pequeno{
+
+    display: none;
 }
