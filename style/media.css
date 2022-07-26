@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px){
 
-    aside.a-50{
+    aside.d-50{
 
         width: 100%;
     }
@@ -10,17 +10,17 @@
         margin: 12.5% auto 12.5% auto;
     }
 
-    .s-01 .a-40{
+    .s-01 .d-40{
 
         display: none;
     }
 
-    .s-02 .a-40{
+    .s-02 .d-40{
 
         display: none;
     }
 
-    .s-02 .a-60 {
+    .s-02 .d-60 {
 
         width: 100%;
         margin: auto;
@@ -29,26 +29,26 @@
 
     }
 
-    .s-02 .a-60 h5{
+    .s-02 .d-60 h5{
 
         margin-top: 70px;
         width: 100%;
     }
 
-    .s-02 .a-60 div{
+    .s-02 .d-60 div{
 
         margin: 80px auto 0 auto;
 
     }
 
-    .s-03 .a-hor .a-ver p{
+    .s-03 .d-hor .d-ver p{
 
         padding: 30px 20px 0px 20px;
         font-size: 18px;
     
     }
 
-    .s-03 .a-hor .a-ver .line{
+    .s-03 .d-hor .d-ver .line{
 
         display: none;
     }
@@ -58,24 +58,24 @@
         display: none;
     }
 
-    .s-04 .a-30{
+    .s-04 .d-30{
 
         display: none;
     }
 
-    .s-04 #a-40-description{
+    .s-04 #d-40-description{
 
         width: 100%;
         margin: auto;
         text-align: center;
     }
 
-    .s-04 #a-40-description h1{
+    .s-04 #d-40-description h1{
 
         padding: 0px 0px 0px 0px;
     }
 
-    .s-04 #a-40-description p{
+    .s-04 #d-40-description p{
 
         padding: 0px 0px 0px 0px;
         margin: 50px auto 0px auto;
@@ -133,7 +133,7 @@
         margin: 4px auto 4px auto;
     }
 
-    .s-02 .a-60 div{
+    .s-02 .d-60 div{
 
         max-width: none;
         min-width: 0px;
@@ -141,27 +141,27 @@
         min-height: 71.5px;
     }
 
-    .s-02 .a-60 p{
+    .s-02 .d-60 p{
 
         font-size: 12px;
         display: block;
     }
 
-    .s-03 .a-hor .a-ver-itens{
+    .s-03 .d-hor .d-ver-itens{
 
         display: block;
         flex-direction: column;
         text-align: center;
     }
     
-    .s-03 .a-hor .a-ver-title h1{
+    .s-03 .d-hor .d-ver-title h1{
         
         width: 90%;
         margin: 10px 5% 0px 5%;
         text-align: center;
     }
 
-    .s-03 .a-hor .a-ver-itens p{
+    .s-03 .d-hor .d-ver-itens p{
 
         height: 0.3%;
         font-size: 16px;
@@ -170,7 +170,7 @@
         margin: 40px 5% 0px 5%;
     }
 
-    .s-03 .a-hor .a-ver-button input{
+    .s-03 .d-hor .d-ver-button input{
 
         margin-top: -110px;
         max-width: none;
@@ -179,24 +179,24 @@
         margin: -70px 5% 0px 5%;
     }
 
-    .s-03 .a-hor .a-ver-lines{
+    .s-03 .d-hor .d-ver-lines{
 
         display: none;
     }
 
-    .s-04 #a-40-description h1{
+    .s-04 #d-40-description h1{
 
         font-size: 36px;
 
     }
 
-    .s-04 #a-40-description p{
+    .s-04 #d-40-description p{
 
         width: 90%; 
         
     }
     
-    .s-04 #a-40-description h1{
+    .s-04 #d-40-description h1{
 
         margin: 140px auto 0px auto;
         padding: 0px 0px 0px 0px;

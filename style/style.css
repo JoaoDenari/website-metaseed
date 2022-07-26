@@ -62,27 +62,27 @@ section.s-02, .s-03, .s-04{
 
 /*---------------------------------------Aside-----------------------------------------------*/ 
 
-aside.a-60{
+aside.d-60{
 
     width: 60%;
 }
 
-aside.a-50{
+aside.d-50{
 
     width: 50%;
 }
 
-aside.a-40{
+aside.d-40{
 
     width: 40%;
 }
 
-aside.a-30{
+aside.d-30{
 
     width: 30%;
 }
 
-aside.a-hor{
+aside.d-hor{
 
     display: flex;
     flex-direction: column;
@@ -90,13 +90,13 @@ aside.a-hor{
     width: 100%;
 }
 
-aside.a-ver{
+aside.d-ver{
 
     display: flex;
     flex-direction: row;
 }
 
-aside#a-40-description{
+aside#d-40-description{
 
     width: 40%;
 }
@@ -281,12 +281,12 @@ div#d-closed-img{
     transform: translate(0%, 30%);
 }
 
-.s-02 .a-60{
+.s-02 .d-60{
 
     padding: 200px 40px 0px 40px;
 }
 
-.s-02 .a-60 h5{
+.s-02 .d-60 h5{
 
     margin-top: 70px;
     width: 80%;
@@ -297,7 +297,7 @@ span{
     color: red;
 }
 
-.s-02 .a-60 div{
+.s-02 .d-60 div{
 
     margin-top: 35px;
 
@@ -310,7 +310,7 @@ span{
     border-radius: 5px;
 }
 
-.s-02 .a-60 p{
+.s-02 .d-60 p{
 
     text-align: center;
     transform: translate(0, 70%);
@@ -319,39 +319,39 @@ span{
 
 /*-------------------------------------Section 03--------------------------------------------*/ 
 
-.a-ver-title{
+.d-ver-title{
 
     display: flex;
     flex-direction: row;
 }
 
-.a-ver-itens{
+.d-ver-itens{
 
     display: flex;
     flex-direction: row;
 
 }
 
-.a-ver-lines{
+.d-ver-lines{
 
     display: flex;
     flex-direction: row;
 }
 
-.a-ver-button{
+.d-ver-button{
 
     display: flex;
     flex-direction: row;
 }
 
 
-.s-03 .a-hor .a-ver-title h1{
+.s-03 .d-hor .d-ver-title h1{
 
     margin: 150px auto 0px auto;
     text-align: center;
 }
 
-.s-03 .a-hor .a-ver-itens p{
+.s-03 .d-hor .d-ver-itens p{
 
     margin: 80px auto 0px auto;
     padding: 60px 40px 0px 40px;
@@ -363,13 +363,13 @@ span{
     width: 13%;
 }
 
-.s-03 .a-hor .a-ver-lines .line{
+.s-03 .d-hor .d-ver-lines .line{
 
     margin: 30px auto 0px auto;
     width: 4%;
 }
 
-.s-03 .a-hor .a-ver-button input{
+.s-03 .d-hor .d-ver-button input{
 
     margin: 120px auto 0px auto;
     text-align: center;
@@ -394,13 +394,13 @@ div#d-logo{
     transform: translate(0, 22%);
 }
 
-.s-04 #a-40-description h1{
+.s-04 #d-40-description h1{
 
     margin: 280px 0 0 0;
     padding: 0px 0px 0px 80px;
 }
 
-.s-04 #a-40-description p{
+.s-04 #d-40-description p{
 
     margin: 60px 0 0 0;
     padding: 0px 0px 0px 80px;
@@ -417,7 +417,7 @@ div#d-suit-man{
     overflow: hidden;
 }
 
-.s-04 .a-30 img{
+.s-04 .d-30 img{
 
     transform: translate(-8%, 16%);
 }
