@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px){
 
-    aside.d-50{
+    div.d-50{
 
         width: 100%;
     }
@@ -39,13 +39,6 @@
 
         margin: 80px auto 0 auto;
 
-    }
-
-    .s-03 .d-hor .d-ver p{
-
-        padding: 30px 20px 0px 20px;
-        font-size: 18px;
-    
     }
 
     .s-03 .d-hor .d-ver .line{

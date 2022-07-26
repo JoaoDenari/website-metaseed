@@ -60,29 +60,29 @@ section.s-02, .s-03, .s-04{
 }
 
 
-/*---------------------------------------Aside-----------------------------------------------*/ 
+/*---------------------------------------div-----------------------------------------------*/ 
 
-aside.d-60{
+div.d-60{
 
     width: 60%;
 }
 
-aside.d-50{
+div.d-50{
 
     width: 50%;
 }
 
-aside.d-40{
+div.d-40{
 
     width: 40%;
 }
 
-aside.d-30{
+div.d-30{
 
     width: 30%;
 }
 
-aside.d-hor{
+div.d-hor{
 
     display: flex;
     flex-direction: column;
@@ -90,13 +90,13 @@ aside.d-hor{
     width: 100%;
 }
 
-aside.d-ver{
+div.d-ver{
 
     display: flex;
     flex-direction: row;
 }
 
-aside#d-40-description{
+div#d-40-description{
 
     width: 40%;
 }
@@ -106,7 +106,7 @@ aside#d-40-description{
 h1{
 
     color: white;
-    font: normal normal normal 4.2rem/54px 'Futura-Bold', Arial, Verdana, Helvetica, sans-serif;
+    font: normal normal normal 5.2rem/54px 'Futura-Bold', Arial, Verdana, Helvetica, sans-serif;
 }
 
 h2{
@@ -154,9 +154,8 @@ div#register{
 
     margin: 12.5% 15% 12.5% 15%;
 
-    max-width: 575px;
-    min-width: 280px;
-    height: 75%;
+    width: 575px;
+    height: 712.5px;
     
     /* transform: translate(0, 17.5%); */
 
@@ -267,18 +266,24 @@ div#register > h4{
 
 /*-------------------------------------Section 02--------------------------------------------*/ 
 
+.s-02 .d-40{
+
+    min-width: 693.922px;
+    max-width: 693.922px;
+}
+
+
 div#d-closed-img{
 
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    
+    margin: 15% auto;
+    height: 80%;
+    width: 85%;
 }
 
 #d-closed-img > img{
-
+    
     width: 100%;
-    transform: translate(0%, 30%);
+    height: 90%;
 }
 
 .s-02 .d-60{
@@ -297,25 +302,21 @@ span{
     color: red;
 }
 
-.s-02 .d-60 div{
+.d-false-button{
 
-    margin-top: 35px;
-
-    max-width: 438px;
-    min-width: 438px;
-    
-    min-height: 71.5px;
-
-    background-color: red;
-    border-radius: 5px;
-}
-
-.s-02 .d-60 p{
-
+    background-color: #FF0000;
+    width: 420px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 10px;
     text-align: center;
-    transform: translate(0, 70%);
 }
 
+.d-false-button p{
+
+    font-size: 2.0rem;
+    transform: translate(0, 65%);
+}
 
 /*-------------------------------------Section 03--------------------------------------------*/ 
 
@@ -351,16 +352,20 @@ span{
     text-align: center;
 }
 
+.d-ver-itens{
+
+    margin-top: 50px;
+    text-align: center;
+}
+
 .s-03 .d-hor .d-ver-itens p{
 
-    margin: 80px auto 0px auto;
-    padding: 60px 40px 0px 40px;
-    
+    margin: 70px auto 0px auto;
+    padding-bottom: 20px;
     text-align: center;
-    color: white;
-    font-size: 2.2rem;
-
-    width: 13%;
+    font-size: 2.0rem;
+    border-bottom: 1px solid white;
+    width: 10%;
 }
 
 .s-03 .d-hor .d-ver-lines .line{
@@ -369,15 +374,11 @@ span{
     width: 4%;
 }
 
-.s-03 .d-hor .d-ver-button input{
+.d-hor > .d-false-button{
 
-    margin: 120px auto 0px auto;
-    text-align: center;
-
-    max-width: 500px;
-    height: 90px;
+    margin: auto;
+    width: 550px;
 }
-
 
 /*-------------------------------------Section 04--------------------------------------------*/ 
 
