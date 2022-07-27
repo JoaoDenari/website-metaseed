@@ -1,197 +1,351 @@
-@media screen and (max-width: 1400px){
+/*--------------------------------------1400px----------------------------------------------*/ 
 
-    div.d-50{
+@media screen and (max-width: 1400px) {
 
-        width: 100%;
-    }
+/*-------------------------------------Section 01--------------------------------------------*/ 
 
-    div#register{
+div.d-50{
 
-        margin: 12.5% auto 12.5% auto;
-    }
+    width: 100%;
+    height: 100%;
+}
 
-    .s-01 .d-40{
+div#register{
 
-        display: none;
-    }
+    margin: 12.5% auto;
+}
 
-    .s-02 .d-40{
 
-        display: none;
-    }
+/*-------------------------------------Section 02--------------------------------------------*/ 
 
-    .s-02 .d-60 {
+section.s-02{
 
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        padding: 50px 40px 0px 40px;
+    height: 700px;
+}
 
-    }
+.s-02 .d-40{
 
-    .s-02 .d-60 h5{
+    display: none;
+}
 
-        margin-top: 70px;
-        width: 100%;
-    }
+.s-02 .d-60 {
 
-    .s-02 .d-60 div{
+    width: 100%;
+    height: 700px;
 
-        margin: 80px auto 0 auto;
+    margin: 150px 100px 100px 100px;
+    padding: 0px;
 
-    }
+    text-align: center;
+}
 
-    .s-03 .d-hor .d-ver .line{
+.s-02 .d-60 h5{
 
-        display: none;
-    }
+    width: 90%;
+    margin:  50px auto;
+}
 
-    div#d-suit-man{
+.s-02 .d-60 div{
 
-        display: none;
-    }
+    text-align: center;
+    margin: 80px auto;
+}
+/*-------------------------------------Section 03--------------------------------------------*/ 
 
-    .s-04 .d-30{
+section.s-03{
 
-        display: none;
-    }
+    height: 1000px;
+}
 
-    .s-04 #d-40-description{
+.d-ver-itens{
 
-        width: 100%;
-        margin: auto;
-        text-align: center;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
 
-    .s-04 #d-40-description h1{
+.s-03 .d-hor .d-ver-itens p{
 
-        padding: 0px 0px 0px 0px;
-    }
+    width: 50%;
+}
 
-    .s-04 #d-40-description p{
+.d-hor .d-false-button{
 
-        padding: 0px 0px 0px 0px;
-        margin: 50px auto 0px auto;
-        width: 60%;
-    }
+    margin-top: 60px;
+}
+
+.d-hor .d-false-button p{
+
+    transform: translate(0, 80%);
+}
+
+/*-------------------------------------Section 04--------------------------------------------*/ 
+
+.d-30{
+
+    display: none;
+}
+
+section.s-04{
+
+    display: block;
+    flex-direction: row;   
+    height: 750px;
+}
+
+.s-04 .d-40{
+
+    width: 100%;
+    text-align: center;
+}
+
+
+.s-04 .d-40 h1{
+
+    padding-left: 0px;
+}
+
+.s-04 .d-40 p{
+
+    text-align: center;
+}
+
+div.logo{
+
+    display: block;
+}
+
+/*---------------------------------------800px----------------------------------------------*/ 
+
+@media screen and (max-width: 800px) {
+
+html{
+
+    font-size: 55%;;
+}
+
+section.s-01{
+
+    height: 850px;
+}
+
+div#register{
+
+    width: 80%;
+}
+
+
+/*-------------------------------------Section 01--------------------------------------------*/ 
+
+/*-------------------------------------Section 02--------------------------------------------*/ 
+
+/*-------------------------------------Section 03--------------------------------------------*/ 
+
+.s-03 .d-hor .d-ver-itens p{
+
+    width: 40%;
+}
+
+section.s-03{
+
+    height: 1300px;
+}
+
+.d-hor .d-false-button{
+
+    width: 80%;
+}
+
+
+
+
+/*-------------------------------------Section 04--------------------------------------------*/ 
+
+.s-04 .d-40 p{
+
+    padding: 0px;
+    margin: 50px auto;
+}
 
 }
 
-@media screen and (max-width: 760px){
+/*---------------------------------------600px----------------------------------------------*/ 
+
+@media screen and (max-width: 600px){
+
+html{
+
+    font-size: 40%;
+}
+    
+/*-------------------------------------Section 01--------------------------------------------*/ 
+
+section.s-01{
+
+    height: 720px;
+}
+
+div#register{
+
+    height:620px;
+    margin: 12.5% auto 12.5% auto;
+}
+
+div#register-company > h1{
+
+    transform: translate(0, -5%); 
+    height: 100%;
+}
+
+div#register-company > h2{
+
+    transform: translate(0, 18%); 
+}
+
+div#register-logo{
+
+    width: 80%;
+    margin: auto;
+}
+
+/*-------------------------------------Section 02--------------------------------------------*/ 
+
+section.s-02{
+
+    height: 550px;
+}
+
+.s-02 .d-60{
+
+    margin: 20px 40px 0px 40px
+}
+
+.d-false-button{
+
+    width: 90%;
+    height: 60px;
+}
+
+.d-hor .d-false-button{
+
+    width: 90%;
+}
+
+}
+
+/*---------------------------------------450px----------------------------------------------*/ 
+
+@media screen and (max-width: 450px) {
+
+    html{
+
+    font-size: 30%;;
+    }
+
+/*-------------------------------------Section 01--------------------------------------------*/ 
+
+
+    html{
+
+        font-size: 30%;;
+    }
+        
+
+    section.s-01{
+
+        height: 600px;
+    }
 
     div#register{
 
-        margin: 12.5% 5% 12.5% 5%;
-
-        padding: 10px;
+        height:520px;
     }
 
-    div#register-company > h2{
+    div#register-company{
 
-        font-size: 24px;
+        border-radius: 10px;
     }
 
     div#register-company > h1{
 
-        font-size: 40px;
-        padding: 15px 0px 0px 5%;
-
+        transform: translate(0, -10%); 
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
-    div#register > h3{
+    div#register-company > h2{
 
-        font-size: 36px;
-        margin-top: 0px;
-        padding: 2px;
-    }
-
-    div#register > h4{
-
-        font-size: 20px;
-        height: 27%;
-        margin-top: 12px;
-    }
-
-    .register-text{
-
-        font-size: 16px;
-        height: 8%;
-        margin: 4px auto 4px auto;
+        transform: translate(0, 20%); 
     }
 
     .register-button{
 
-        font-size: 10px;
-        height: 9%;
-        margin: 4px auto 4px auto;
+        border-radius: 1px;
     }
 
-    .s-02 .d-60 div{
 
-        max-width: none;
-        min-width: 0px;
-        width: 80%;
-        min-height: 71.5px;
+/*-------------------------------------Section 02--------------------------------------------*/ 
+
+    section.s-02{
+
+        height: 550px;
     }
 
-    .s-02 .d-60 p{
+    .s-02 .d-60{
 
-        font-size: 12px;
-        display: block;
+        margin: 20px 40px 0px 40px
     }
 
-    .s-03 .d-hor .d-ver-itens{
+    .d-false-button{
 
-        display: block;
-        flex-direction: column;
-        text-align: center;
+        height: 42px;
     }
-    
+
+
+/*-------------------------------------Section 03--------------------------------------------*/ 
+
+    section.s-03{
+
+        height: 740px;
+    }
+
     .s-03 .d-hor .d-ver-title h1{
-        
-        width: 90%;
-        margin: 10px 5% 0px 5%;
-        text-align: center;
+
+        margin: 50px auto 0px auto;
     }
 
     .s-03 .d-hor .d-ver-itens p{
 
-        height: 0.3%;
-        font-size: 16px;
-        text-align: center;
-        width: 90%;
-        margin: 40px 5% 0px 5%;
+        margin: 15px auto 0px auto;
+        padding-left: 0px;
     }
 
-    .s-03 .d-hor .d-ver-button input{
+    .s-03 .d-hor .d-ver-itens{
 
-        margin-top: -110px;
-        max-width: none;
-        min-height: 71.5px;
-        width: 90%;
-        margin: -70px 5% 0px 5%;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     }
 
-    .s-03 .d-hor .d-ver-lines{
+
+/*-------------------------------------Section 04--------------------------------------------*/ 
+
+    section.s-04{
+
+        height: 550px;
+    }
+
+    .s-04 .d-40 h1{
+
+        margin-top: 50px;
+    }
+
+    #logo-pequeno{
+
+        display: block;
+        margin: auto;
+    }
+
+    #logo-medio{
 
         display: none;
     }
 
-    .s-04 #d-40-description h1{
-
-        font-size: 36px;
-
-    }
-
-    .s-04 #d-40-description p{
-
-        width: 90%; 
-        
-    }
-    
-    .s-04 #d-40-description h1{
-
-        margin: 140px auto 0px auto;
-        padding: 0px 0px 0px 0px;
-    }
 }
