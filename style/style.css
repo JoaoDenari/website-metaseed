@@ -1,437 +1,135 @@
-/*-------------------------------------Default--------------------------------------------*/ 
-
+/*-------------------------------------default--------------------------------------------*/ 
 @charset 'UTF-8';
 
 *{ 
-
     margin: 0px; 
     padding: 0px; 
     } 
 
 h1, h2, h3, h4, h5, h6 { 
-
     font: normal normal normal 1.6rem/30px Arial, Verdana, Helvetica, sans-serif
     } 
 
-body{
+:root{
+    --dark-blue: #1D252C;
+    --normal-blue: #4e8098;
+    --light-white: #F4F1DE;
+    --light-red: #e07a5f;
+    --dark-red: #BC2C1A;
+    }
 
+body{
     zoom: 1;
     font-family: 'monteserrat';
 }
 
 html{
-
-    font-size: 62.5%;;
+    font-size: 62.5%;
 }
 
 main{
-
     display: block;
 }
 
-/*--------------------------------------Section-----------------------------------------------*/
+.row-flex{display: flex; flex-direction: row;}
+.col-flex{display: flex; flex-direction: column;}
+.block{display: block;}
+.m-auto{margin: 0 auto;}
 
-section.s-01{
+.h-100{height: 100%;}
+.h-90{height: 90%;}
+.h-80{height: 80%;}
+.h-70{height: 70%;}
+.h-60{height: 60%;}
+.h-50{height: 50%;}
+.h-40{height: 40%;}
+.h-30{height: 30%;}
+.h-20{height: 20%;}
+.h-10{height: 10%;}
 
-    max-width: 100%;
-    min-width: 100%;
-    height: 950px;
+.w-100{width: 100%;}
+.w-90{width: 90%;}
+.w-80{width: 80%;}
+.w-70{width: 70%;}
+.w-60{width: 60%;}
+.w-50{width: 50%;}
+.w-40{width: 40%;}
+.w-30{width: 30%;}
+.w-20{width: 20%;}
+.w-10{width: 10%;}
+.text-center{text-align: center;}
+.position-relative{position: relative;}
+.position-absolute{position: absolute;}
+
+/*-----------------------------------------section01---------------------------------------------*/ 
+
+.main-sec{
     background-image:url(../images/background-02.png);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
- 
-    display: flex;
-    flex-direction: row;
 }
 
-section.s-02, .s-03, .s-04{
+.main-div{
 
-    width: 100%;
-    height: 850px;
-
-    background-image:url(../images/background-03.png);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: row;
 }
 
-
-/*---------------------------------------div-----------------------------------------------*/ 
-
-div.d-60{
-
-    width: 60%;
+.form-div{
+    max-width: 450px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
 }
 
-div.d-50{
-
-    width: 50%;
+.logo-div{
+    justify-content: center;
+    margin: 10px;
 }
 
-div.d-40{
-
-    width: 40%;
-}
-
-div.d-30{
-
-    width: 30%;
-}
-
-div.d-hor{
-
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-}
-
-div.d-ver{
-
-    display: flex;
-    flex-direction: row;
-}
-
-div#d-40-description{
-
-    width: 40%;
-}
-
-/*---------------------------------------Text------------------------------------------------*/
-
-h1{
-
+.logo-left{
+    background-color: red;
     color: white;
-    font: normal normal normal 5.2rem/54px 'Futura-Bold', Arial, Verdana, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    text-align: right;
+    font-size: 3.4rem;
+    line-height: 3.6rem;
+}
+
+.logo-right{
+    background-color: black;
+    font-family: 'Parisienne';
+    color: white;
+    font-size: 4.8rem;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 h2{
-
-    color: white;
-    font: normal normal normal 3.2rem/3.0rem 'Futura BdCn BT', Arial, Verdana, Helvetica, sans-serif
+    font-size: 4.0rem;
+    line-height: 4.0rem;
+    margin: 20px;
 }
 
 h3{
-
-    font-size: 4.5rem;
-    letter-spacing: 1.2px;
-    font-family: 'Futura BdCn BT';
+    font-size: 2.8rem;
+    margin: 20px 2px;
 }
 
-h4{
-
-    color: black;
-    font: normal normal normal 2.8rem/3.0rem 'Futura Bk BT', Arial, Verdana, Helvetica, sans-serif
+.form-text{
+    margin: 2px auto 2px auto;
+    height: 40px;
 }
 
-h5{
-
-    color: white;
-    font: normal normal normal 2.8rem/3.0rem 'Futura Bold', Arial, Verdana, Helvetica, sans-serif
-
-}
-
-h6{
-
-    color: black;
-    font: normal normal normal 1.6rem/3.0rem 'Futura Bk BT', Arial, Verdana, Helvetica, sans-serif
+.form-button{
+    margin: 2px auto 2px auto;
+    height: 50px;
+    width: 100%;
 }
 
 p{
-
-    color: white;
-    font: normal normal normal 2.2rem/3.0rem 'monteserrat', Arial, Verdana, Helvetica, sans-serif
-}
-
-/*-------------------------------------Section 01--------------------------------------------*/ 
-
-
-div#register{
-
-    margin: 12.5% 15% 12.5% 15%;
-
-    width: 575px;
-    height: 712.5px;
-
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 15px;
-
-    text-align: center;
-}
-
-div#register-logo{
-
-    height: 20%;
-}
-
-div#register-company{
-
-    background-color: red;
-    max-width: 402.5px;
-    height: 60%;
-    margin: auto;
-    transform: translate(0, 40%);
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: row;
-
-    overflow: hidden;
-}
-
-div#register-company > h2{
-
-    padding: 0px 5px 0px 0px;
-    width: 35%;
-    transform: translate(0, 8%);
-
-    text-align: right;
-    font-size: 3.4rem;
-    line-height: 3.5rem;
-
-}
-
-div#register-company > h1{
-
-    padding: 15px 0px 0px 15px;
-    width: 65%;
-    background-color: black;
-
-    font-family: 'Parisienne';
-    font-size: 4.8rem;
-    text-align: left;
-    color: white;
-
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-div#register > h3{
-
-    height: 15%;
-    margin-top: 2px;
-    padding: 5px;
-
-    text-align: center;
-    line-height: 4.0rem;
-}
-
-div#register > h4{
-
-    height: 20%;
-    width: 95%;
-    margin: auto auto auto auto;
-
-    text-align: center;
-    line-height: 4.0rem;
-}
-
-.register-text{
-
-    height: 10%;
-    width: 90%;
-    margin: 2px auto 2px auto;
-
-    text-align: left;
-    line-height: 4.0rem;
-    font-size: 2.2rem;
-
-    border-radius: 5px;
-}
-
-.register-button{
-
-    height: 11%;
-    width: 91%;
-    margin: 2px auto 2px auto;
-    
-    text-align: left;
-    line-height: 4.0rem;
-    font-size: 2.0rem;
-    text-align: center;
-
-    border-radius: 5px;
-
-    background-color: #FF0000;
-    color: white;
-}
-
-
-/*-------------------------------------Section 02--------------------------------------------*/ 
-
-.s-02 .d-40{
-
-    min-width: 693.922px;
-    max-width: 693.922px;
-}
-
-
-div#d-closed-img{
-
-    margin: 15% auto;
-    height: 80%;
-    width: 85%;
-}
-
-#d-closed-img > img{
-    
-    width: 100%;
-    height: 90%;
-}
-
-.s-02 .d-60{
-
-    padding: 200px 40px 0px 40px;
-}
-
-.s-02 .d-60 h5{
-
-    margin-top: 70px;
-    width: 80%;
-}
-
-span{
-
-    color: red;
-}
-
-.d-false-button{
-
-    background-color: #FF0000;
-    width: 420px;
-    height: 70px;
-    margin-top: 50px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.d-false-button p{
-
-    font-size: 2.0rem;
-    transform: translate(0, 65%);
-}
-
-/*-------------------------------------Section 03--------------------------------------------*/ 
-
-.d-ver-title{
-
-    display: flex;
-    flex-direction: row;
-}
-
-.d-ver-itens{
-
-    display: flex;
-    flex-direction: row;
-}
-
-.d-ver-lines{
-
-    display: flex;
-    flex-direction: row;
-}
-
-.d-ver-button{
-
-    display: flex;
-    flex-direction: row;
-}
-
-
-.s-03 .d-hor .d-ver-title h1{
-
-    margin: 150px auto 0px auto;
-    text-align: center;
-}
-
-.d-ver-itens{
-
-    margin-top: 50px;
-    text-align: center;
-}
-
-.s-03 .d-hor .d-ver-itens p{
-
-    margin: 70px auto 0px auto;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 2.0rem;
-    border-bottom: 1px solid white;
-    width: 10%;
-}
-
-.s-03 .d-hor .d-ver-lines .line{
-
-    margin: 30px auto 0px auto;
-    width: 4%;
-}
-
-.d-hor > .d-false-button{
-
-    margin: auto;
-    width: 550px;
-}
-
-/*-------------------------------------Section 04--------------------------------------------*/ 
-
-section.s-04{
-
-    height: 725px;
-    overflow: hidden;
-}
-
-div#d-logo{
-    min-width: 70%;
-    height: 850px;
-}
-
-#d-logo img{
-
-    margin: auto;
-    width: 70%;
-    height: 70%;
-
-    transform: translate(5%, 5%);
-}
-
-.s-04 .d-40 h1{
-
-    margin: 150px 0px 0px 0px;
-    padding: 0px 0px 0px 100px;
-}
-
-.s-04 .d-40 p{
-
-    margin: 60px 0 0 0;
-    padding: 0px 0px 0px 100px;
-    width: 80%;
-
-    text-align: justify;
-    line-height: 3.5rem
-}
-
-div#d-suit-man{
-
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-div.logo{
-
-    width: 100%;
-    height: 300px;
-    margin: auto;
-    text-align: center;
-    display: none;
-    margin-top: 50px;
-}
-
-#logo-pequeno{
-
-    display: none;
+    margin: 15px;
+    font-size: 1.6rem;
 }
