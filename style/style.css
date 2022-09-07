@@ -128,7 +128,7 @@ main{
 /*-----------------------------------------section01---------------------------------------------*/ 
 
 section.main-sec{
-    background-image:url(../images/background-02.png);
+    background-image:url(../images/background-01.png);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@ section.main-sec p{
 /*-----------------------------------------section02---------------------------------------------*/ 
 
 section.statistic-sec{
-    background-image:url(../images/background-03.png);
+    background-image:url(../images/background-02.png);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,7 +212,7 @@ section.statistic-sec .w-60 span{
 /*-----------------------------------------section03---------------------------------------------*/ 
 
 .pillars-sec{
-    background-image:url(../images/background-03.png);
+    background-image:url(../images/background-02.png);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +250,7 @@ section.statistic-sec .w-60 span{
 /*-----------------------------------------footer---------------------------------------------*/
 
 footer{
-    background-image:url(../images/background-03.png);
+    background-image:url(../images/background-02.png);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
