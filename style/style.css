@@ -224,7 +224,8 @@ section.statistic-sec .w-60 span{
 
 .container-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
+    grid-template-columns: repeat(auto-fit, 50rem);
+    grid-row-gap: 100px;
     justify-content: center; 
     margin-top: 10.0rem;
 }
@@ -261,10 +262,10 @@ footer h1{
 }
 
 footer p{
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     text-align: justify;
-    line-height: 40px;
-    width: 75%;
+    line-height: 36px;
+    width: 85%;
 }
 
 footer .w-30{

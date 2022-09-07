@@ -1,351 +1,124 @@
 /*--------------------------------------1400px----------------------------------------------*/ 
 
 @media screen and (max-width: 1400px) {
-
-/*-------------------------------------Section 01--------------------------------------------*/ 
-
-div.d-50{
-
-    width: 100%;
-    height: 100%;
-}
-
-div#register{
-
-    margin: 12.5% auto;
-}
-
-
-/*-------------------------------------Section 02--------------------------------------------*/ 
-
-section.s-02{
-
-    height: 700px;
-}
-
-.s-02 .d-40{
-
-    display: none;
-}
-
-.s-02 .d-60 {
-
-    width: 100%;
-    height: 700px;
-
-    margin: 150px 100px 100px 100px;
-    padding: 0px;
-
-    text-align: center;
-}
-
-.s-02 .d-60 h5{
-
-    width: 90%;
-    margin:  50px auto;
-}
-
-.s-02 .d-60 div{
-
-    text-align: center;
-    margin: 80px auto;
-}
-/*-------------------------------------Section 03--------------------------------------------*/ 
-
-section.s-03{
-
-    height: 1000px;
-}
-
-.d-ver-itens{
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-}
-
-.s-03 .d-hor .d-ver-itens p{
-
-    width: 50%;
-}
-
-.d-hor .d-false-button{
-
-    margin-top: 60px;
-}
-
-.d-hor .d-false-button p{
-
-    transform: translate(0, 80%);
-}
-
-/*-------------------------------------Section 04--------------------------------------------*/ 
-
-.d-30{
-
-    display: none;
-}
-
-section.s-04{
-
-    display: block;
-    flex-direction: row;   
-    height: 750px;
-}
-
-.s-04 .d-40{
-
-    width: 100%;
-    text-align: center;
-}
-
-
-.s-04 .d-40 h1{
-
-    padding-left: 0px;
-}
-
-.s-04 .d-40 p{
-
-    text-align: center;
-}
-
-div.logo{
-
-    display: block;
-}
-
-/*---------------------------------------800px----------------------------------------------*/ 
-
-@media screen and (max-width: 800px) {
-
-html{
-
-    font-size: 55%;;
-}
-
-section.s-01{
-
-    height: 850px;
-}
-
-div#register{
-
-    width: 80%;
-}
-
-
-/*-------------------------------------Section 01--------------------------------------------*/ 
-
-/*-------------------------------------Section 02--------------------------------------------*/ 
-
-/*-------------------------------------Section 03--------------------------------------------*/ 
-
-.s-03 .d-hor .d-ver-itens p{
-
-    width: 40%;
-}
-
-section.s-03{
-
-    height: 1300px;
-}
-
-.d-hor .d-false-button{
-
-    width: 80%;
-}
-
-
-
-
-/*-------------------------------------Section 04--------------------------------------------*/ 
-
-.s-04 .d-40 p{
-
-    padding: 0px;
-    margin: 50px auto;
-}
-
-}
-
-/*---------------------------------------600px----------------------------------------------*/ 
-
-@media screen and (max-width: 600px){
-
-html{
-
-    font-size: 40%;
-}
-    
-/*-------------------------------------Section 01--------------------------------------------*/ 
-
-section.s-01{
-
-    height: 720px;
-}
-
-div#register{
-
-    height:620px;
-    margin: 12.5% auto 12.5% auto;
-}
-
-div#register-company > h1{
-
-    transform: translate(0, -5%); 
-    height: 100%;
-}
-
-div#register-company > h2{
-
-    transform: translate(0, 18%); 
-}
-
-div#register-logo{
-
-    width: 80%;
-    margin: auto;
-}
-
-/*-------------------------------------Section 02--------------------------------------------*/ 
-
-section.s-02{
-
-    height: 550px;
-}
-
-.s-02 .d-60{
-
-    margin: 20px 40px 0px 40px
-}
-
-.d-false-button{
-
-    width: 90%;
-    height: 60px;
-}
-
-.d-hor .d-false-button{
-
-    width: 90%;
-}
-
-}
-
-/*---------------------------------------450px----------------------------------------------*/ 
-
-@media screen and (max-width: 450px) {
-
     html{
+        font-size: 50.0%;
+    }
+}
 
-    font-size: 30%;;
+@media screen and (max-width: 1200px) {
+    .main-div{
+        width: 100%;
     }
 
-/*-------------------------------------Section 01--------------------------------------------*/ 
-
-
-    html{
-
-        font-size: 30%;;
-    }
-        
-
-    section.s-01{
-
-        height: 600px;
+    div.d-false-button{
+        width: 70%;
     }
 
-    div#register{
-
-        height:520px;
+    section.statistic-sec .w-40{
+        padding: 2.0rem;
     }
 
-    div#register-company{
-
-        border-radius: 10px;
+    footer .w-40{
+        width: 60%;
     }
 
-    div#register-company > h1{
-
-        transform: translate(0, -10%); 
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
+    .man-suit{
+        display: none;
     }
+}
 
-    div#register-company > h2{
-
-        transform: translate(0, 20%); 
-    }
-
-    .register-button{
-
-        border-radius: 1px;
-    }
-
-
-/*-------------------------------------Section 02--------------------------------------------*/ 
-
-    section.s-02{
-
-        height: 550px;
-    }
-
-    .s-02 .d-60{
-
-        margin: 20px 40px 0px 40px
-    }
-
-    .d-false-button{
-
-        height: 42px;
-    }
-
-
-/*-------------------------------------Section 03--------------------------------------------*/ 
-
-    section.s-03{
-
-        height: 740px;
-    }
-
-    .s-03 .d-hor .d-ver-title h1{
-
-        margin: 50px auto 0px auto;
-    }
-
-    .s-03 .d-hor .d-ver-itens p{
-
-        margin: 15px auto 0px auto;
-        padding-left: 0px;
-    }
-
-    .s-03 .d-hor .d-ver-itens{
-
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    }
-
-
-/*-------------------------------------Section 04--------------------------------------------*/ 
-
-    section.s-04{
-
-        height: 550px;
-    }
-
-    .s-04 .d-40 h1{
-
-        margin-top: 50px;
-    }
-
-    #logo-pequeno{
-
-        display: block;
-        margin: auto;
-    }
-
-    #logo-medio{
-
+@media screen and (max-width: 992px) {
+    section.statistic-sec img{
         display: none;
     }
 
+    section.statistic-sec .w-40{
+        display: none;
+    }
+
+    section.statistic-sec .w-60{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.statistic-sec .w-60 div{
+        margin: 0 auto;
+    }
+
+    .container-grid{
+        grid-template-columns: repeat(auto-fit, 30rem);
+        grid-row-gap: 50px;
+    }
+
+    footer .w-30{
+        display: none;
+    }
+
+    footer .w-40{
+        width: 100%;
+        margin: 0;
+    }
+
+    footer p{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer h1{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    html{
+        font-size: 40.0%;
+    }
+
+    .main-sec{
+        padding: 7.0rem;
+    }
+
+    div.form-div{
+        max-width: 350px;
+    }
+
+    div.d-false-button{
+        width: 80%;
+        
+    }
+
+    .pillars-sec .false-button-div{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .statistic-sec .w-60{
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    html{
+        font-size: 35.0%;
+    }
+
+    .main-sec {
+        padding: 2rem;
+    }
+
+    input.form-text{
+        height: 40px;
+    }
+
+    input.form-button{
+        height: 50px
+    }
+
+    .container-grid{
+        grid-template-columns: repeat(auto-fit, 50rem);
+    }
 }
