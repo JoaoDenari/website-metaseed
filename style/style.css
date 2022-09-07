@@ -57,9 +57,13 @@ main{
 .w-30{width: 30%;}
 .w-20{width: 20%;}
 .w-10{width: 10%;}
+
 .text-center{text-align: center;}
 .position-relative{position: relative;}
 .position-absolute{position: absolute;}
+
+.img-fluid {max-width: 100%; height: auto;}
+.img-responsive {display: block; max-width: 100%;height: auto;}
 
 /*-----------------------------------------section01---------------------------------------------*/ 
 
@@ -70,70 +74,170 @@ main{
     background-size: cover;
 }
 
-.main-div{
-
-}
-
 .form-div{
-    max-width: 450px;
+    max-width: 500px;
     margin: 100px auto;
-    padding: 30px;
+    padding: 25px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
 }
 
 .logo-div{
-    justify-content: center;
-    margin: 10px;
-    height: 80px
+    padding: 30px;
 }
 
-.logo-left{
-    background-color: red;
-    font-family: 'Futura BdCn BT';
-    color: white;
-    font-size: 3.4rem;
-    line-height: 3.6rem;
-    text-align: right;
-    border-radius: 20px 0px 0px 20px;
-    height: inherit;
-}
-
-.logo-right{
-    background-color: black;
-    background-size: 100%;
-    font-family: 'Parisienne';
-    color: white;
-    font-size: 4.8rem;
-    text-align: left;
-    border-radius: 0px 20px 20px 0px;
-    height: inherit;
-}
-
-h2{
-    font-size: 4.0rem;
+h1{
+    font-size: 4.2rem;
     line-height: 4.0rem;
-    margin: 20px;
+    margin: 10px;
     align-items: center;
+    font-family: 'Futura-Bold';
 }
 
-h3{
-    font-size: 2.8rem;
-    margin: 20px 2px;
+.main-sec h2{
+    font-size: 2.6rem;
+    margin: 20px;
+    font-family: 'monteserrat';
 }
 
 .form-text{
     margin: 2px auto 2px auto;
-    height: 40px;
+    height: 50px;
+    font-size: 1.6rem;
+    font-family: 'monteserrat';
 }
 
 .form-button{
     margin: 2px auto 2px auto;
-    height: 50px;
-    width: 100%;
+    height: 60px;
+    width: 101%;
+    font-size: 1.8rem;
+    background-color: red;
+    color:#fff;
+    font-family: 'monteserrat';
+    cursor: pointer;
 }
 
-p{
+.main-sec p{
     margin: 15px;
     font-size: 1.6rem;
+}
+
+/*-----------------------------------------section02---------------------------------------------*/ 
+
+.statistic-sec{
+    background-image:url(../images/background-03.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.statistic-sec .w-40{
+    padding: 80px 100px;
+}
+
+.statistic-sec .w-60{
+    padding: 80px 100px;
+    color: white;
+    align-self: center;
+}
+
+.d-false-button{
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    height: 50px;
+    width: 50%;
+    margin: 10px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+.statistic-sec .w-60 h1{
+    margin-bottom: 30px;
+}
+
+.statistic-sec .w-60 p{
+    font-size: 2.8rem;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-family: 'Futura-Bold';
+    line-height: 35px;
+}
+
+.statistic-sec .w-60 span{
+    color: red;
+}
+/*-----------------------------------------section03---------------------------------------------*/ 
+
+.pillars-sec{
+    background-image:url(../images/background-03.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 30px;
+
+}
+
+.pillars-sec h1{
+    color: white;
+    margin: 0px;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    justify-content: center; 
+    margin: 120px 0px 0px 0px;
+}
+
+.container-grid div{
+    margin: 0px 30px;
+}
+
+.container-grid p{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.false-button-div{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 100px;
+    margin-top: 120px;
+}
+
+/*-----------------------------------------footer---------------------------------------------*/
+
+footer{
+    background-image:url(../images/background-03.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 0px 0px;
+    color: white;
+}
+
+footer h1{
+    text-align: justify;
+    margin: 80px 0px 80px 100px;
+}
+
+footer p{
+    font-size: 2.2rem;
+    text-align: justify;
+    margin: 0px 0px 0px 100px;
+    line-height: 40px;
+    width: 75%;
+}
+
+footer .w-30{
+    padding-bottom: 0px;
 }
