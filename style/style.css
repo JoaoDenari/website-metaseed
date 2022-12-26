@@ -134,7 +134,7 @@ section.main-sec{
     background-size: cover;
 }
 
-div.form-div{
+form.form-div{
     background-color: rgba(255, 255, 255, 0.5);
     max-width: 500px;
     border-radius: 15px;
